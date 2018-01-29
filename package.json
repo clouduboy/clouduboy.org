@@ -1,0 +1,22 @@
+{
+  "name": "clouduboy-home",
+  "version": "0.1.0",
+  "description": "Clouduboy homepage at clouduboy.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clouduboy/clouduboy.org.git"
+  },
+  "keywords": [
+    "clouduboy"
+  ],
+  "author": "István Szmozsánszky 'Flaki' <clouduboy@flaki.hu> (https://clouduboy.org)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/clouduboy/clouduboy.org/issues"
+  },
+  "homepage": "https://github.com/clouduboy/clouduboy.org#readme"
+}
