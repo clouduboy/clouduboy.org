@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Clouduboy Workshop at Fronteers 10!</title>
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Passion+One|Saira+Extra+Condensed:200,400" rel="stylesheet">
+
+      <meta property="og:image" content="https://clouduboy.org/fronteers-workshop/_assets/workshop-title.jpg" />
+      <meta property="og:site_name" content="Clouduboy" />
+      <meta property="og:title" content="Clouduboy Workshop at Fronteers 10" />
+      <meta property="og:description" content="JavaScript, Microcontrollers, Games! Clouduboy Workshop at Fronteers 10 in Amsterdam this October!" />
+      <meta property="og:type" content="website" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content="Clouduboy Workshop at Fronteers 10" />
+      <meta property="twitter:description" content="JavaScript, Microcontrollers, Games! Clouduboy Workshop at Fronteers 10 in Amsterdam this October!" />
+      <meta property="twitter:site" content="@clouduboy" />
+      <meta property="twitter:author" content="@slsoftworks" />
+      <meta property="twitter:image" content="https://clouduboy.org/fronteers-workshop/_assets/workshop-title.jpg" />
+
+      <style>
+h1 {}
+h2 { font-size: 2.0em; border-bottom: .2em solid #5AD76F }
+h3 { font-size: 1.4em; }
+strong { color: rgb(3, 3, 3); }
+del { color: rgb(126, 126, 126); }
+a, a code { color: black; }
+img { max-width: 100%; }
+p { margin-top: 0px; margin-bottom: 1.5em; }
+ul, ol { margin-bottom: 1.5em; }
+blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(126, 126, 126); border-color: rgb(214, 214, 214); border-width: 4px; }
+hr { margin: 3em 0px; border-top: 2px dashed rgb(214, 214, 214); background: none; }
+table { margin: 1.5em 0px; }
+th { color: rgb(3, 3, 3); }
+th, td { padding: 0.66em 1em; border: 1px solid rgb(214, 214, 214); }
+code { color: rgb(3, 3, 3); background-color: rgb(240, 240, 240); }
+kbd { color: rgb(3, 3, 3); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(214, 214, 214) rgb(214, 214, 214) rgb(199, 199, 199); border-image: initial; background-color: rgb(240, 240, 240); }
+blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+blockquote > :first-child { margin-top: 0px; }
+blockquote > :last-child { margin-bottom: 0px; }
+table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+img { max-width: 100%; box-sizing: border-box; }
+</style>
+<style>
+* { box-sizing: border-box; }
+body {
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+@media only screen and (max-width: 960px) {
+  body {
+    font-size: calc(18px + (100vw - 320px) / 60);
+  }
+}
+h1,h2,h3 {
+  font-family: 'Passion One', 'Impact', sans-serif;
+  font-weight: normal;
+}
+h2 { margin-bottom: .5em; }
+h3 { margin-bottom: .25em; }
+h3+blockquote {
+  margin-top: 0;
+}
+p+ul {
+  margin-top: -1em;
+}
+p+ul li {
+  margin-bottom: .5em;
+}
+p+ul li>p {
+  margin-bottom: 0;
+}
+p.tickets {
+  text-align: center;
+}
+p.tickets img {
+	width: 32em;
+	border-radius: 4em;
+	margin: 1em;
+	max-width: calc(100% - 2em);
+
+}
+p.tickets a {
+  display: block;
+}
+p.tickets a:hover img {
+  box-shadow: 0 0 0 .1em black, 0 0 0 1em #5AD76F, 0 0 0 1.1em black;
+}
+svg {
+  max-width: 6em;
+  float: right;
+  margin: .5em 0 1em 1em;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  color: #5AD76F;
+  text-align: center;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-size: 2.8em;
+
+  text-shadow:
+       0   -.04em black, -.02em -.02em black,
+    -.04em    0   black, -.02em  .02em black,
+       0    .04em black,  .02em  .02em black,
+     .04em    0   black,  .02em -.02em black,
+
+    calc(   0em + .03em) calc(-.04em + .03em) #B1E89D, calc(-.02em + .03em) calc(-.02em + .03em) #B1E89D,
+    calc(-.04em + .03em) calc(   0em + .03em) #B1E89D, calc(-.02em + .03em) calc( .02em + .03em) #B1E89D,
+    calc(   0em + .03em) calc( .04em + .03em) #B1E89D, calc( .02em + .03em) calc( .02em + .03em) #B1E89D,
+    calc( .04em + .03em) calc(   0em + .03em) #B1E89D, calc( .02em + .03em) calc(-.02em + .03em) #B1E89D,
+
+    calc(   0em + .06em) calc(-.04em + .06em) black, calc(-.02em + .06em) calc(-.02em + .06em) black,
+    calc(-.04em + .06em) calc(   0em + .06em) black, calc(-.02em + .06em) calc( .02em + .06em) black,
+    calc(   0em + .06em) calc( .04em + .06em) black, calc( .02em + .06em) calc( .02em + .06em) black,
+    calc( .04em + .06em) calc(   0em + .06em) black, calc( .02em + .06em) calc(-.02em + .06em) black,
+
+    calc( .01em + .06em) calc(-.07em + .06em) black, calc( .03em + .06em) calc(-.05em + .06em) black,
+    calc(-.05em + .06em) calc( .03em + .06em) black, calc(-.06em + .06em) calc( .02em + .06em) black,
+
+    calc(   0em + .09em) calc(-.04em + .09em) #B1E89D, calc(-.02em + .09em) calc(-.02em + .09em) #B1E89D,
+    calc(-.04em + .09em) calc(   0em + .09em) #B1E89D, calc(-.02em + .09em) calc( .02em + .09em) #B1E89D,
+    calc(   0em + .09em) calc( .04em + .09em) #B1E89D, calc( .02em + .09em) calc( .02em + .09em) #B1E89D,
+    calc( .04em + .09em) calc(   0em + .09em) #B1E89D, calc( .02em + .09em) calc(-.02em + .09em) #B1E89D,
+
+    calc(   0em + .12em) calc(-.04em + .12em) black, calc(-.02em + .12em) calc(-.02em + .12em) black,
+    calc(-.04em + .12em) calc(   0em + .12em) black, calc(-.02em + .12em) calc( .02em + .12em) black,
+    calc(   0em + .12em) calc( .04em + .12em) black, calc( .02em + .12em) calc( .02em + .12em) black,
+    calc( .04em + .12em) calc(   0em + .12em) black, calc( .02em + .12em) calc(-.02em + .12em) black,
+
+    calc( .01em + .12em) calc(-.07em + .12em) black, calc( .03em + .12em) calc(-.05em + .12em) black,
+    calc(-.05em + .12em) calc( .03em + .12em) black, calc(-.06em + .12em) calc( .02em + .12em) black;
+}
+
+h1>:nth-child(2) {
+  letter-spacing: .09em;
+}
+
+.tiny { font-size: 50% }
+
+.workshopimg {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.workshopimg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    linear-gradient(to right, transparent,#f1c8d8),
+    linear-gradient(to right, transparent, white 50%);
+  z-index: 1;
+}
+.workshopimg .img {
+  width: 0;
+}
+.workshopimg img {
+	margin-left: -5em;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	width: auto;
+	max-width: initial;
+	max-height: 15em;
+}
+.workshopimg h1 {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  padding: 0 .3em;
+}
+
+p>img:first-child, p>img:last-child {
+  width: 100%;
+}
+
+.lead {
+  font-family: Saira Extra Condensed;
+  font-weight: 200;
+  font-size: 1.6em;
+}
+.lead p {
+  margin-bottom: .5em;
+}
+.lead strong {
+  font-weight: 400;
+}
+.lead+p {
+  margin-top: -1em;
+  margin-bottom: 3em;
+}
+</style>
+  </head>
+<body>
+
+<main>
+<div class="workshopimg">
+  <div class="img"><img src="./_assets/workshop.jpg" alt="Workshop"></div>
+  <h1 id="clouduboy-workshop-at-fronteers-"><span>Clouduboy</span> <span>Workshop</span> <span class="tiny">at</span> <span>Fronteers!</span></h1>
+</div>
+
+<section class="lead">
+<p><strong>Homo Ludens – the playful human.</strong><br />
+  They say this for a reason – and indeed, from kids to adults, developers or not, it is quite easy for everyone to find something they love about Clouduboy.</p>
+<p><strong>The first-ever open-to-public Clouduboy workshop will happen at <a href="https://fronteers.nl/congres/2017/workshops">Fronteers this October</a> and there are still some tickets remaining!</strong></p>
+<p class="tickets"><a href="https://tickets.fronteers.nl/"><img src="https://fronteers.nl/_img/congres/2017/fronteers-conference-2017-announcement-image.jpg" alt="F10"></a></p>
+</section>
+<p><strong><em>Click <a href="https://tickets.fronteers.nl/">here</a> to be taken to buy workshop tickets at the online Fronteers ticket shop.</em></strong></p>
+
+<h2 id="okay-but-what-is-this-clouduboy-thing-">Okay, but what is this &quot;Clouduboy&quot; thing?</h2>
+<p><img src="./_assets/clouduboy-intro.gif" alt="Workshop">
+<br><strong><em>Note: the animation shows an earlier version, the UI, features and functionality may have somewhat improved and/or changed since this was recorded</em></strong></p>
+<p>Clouduboy is not <em>a</em> thing, but rather, a variety of things. It&#39;s a set of tools, libraries and apps I have been working on in the past few years, trying to figure out the best way to bring software (buzzword: coding) and hardware/microcontrollers (or in 2017 terms, &quot;IoT&quot;) closer to people. Read about the components below, or scroll further down to see what&#39;s in it for you if you come to the workshop.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.82 85.45" x="0px" y="0px"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke:#000;stroke-miterlimit:10;}.cls-1{stroke-width:3px;}.cls-3{stroke-width:2px;}</style></defs><title>Asset 1</title><g data-name="Layer 2"><g data-name="Layer 2"><path class="cls-1" d="M74.77,62.36C82.1,66,89.71,65,88.11,49.33,86.25,31.12,82.53,22.1,80,17.93v0"/><path class="cls-1" d="M10.62,17.64C8.18,21.14,3.8,30,1.72,50.31,0,66.86,8.58,67.05,16.26,62.71"/><path class="cls-1" d="M58.74,3.5H65a15,15,0,0,1,15,15V51A15,15,0,0,1,65,66H58.74a0,0,0,0,1,0,0V3.5A0,0,0,0,1,58.74,3.5Z"/><path class="cls-1" d="M10.59,3.5h6.27a15,15,0,0,1,15,15V51a15,15,0,0,1-15,15H10.59a0,0,0,0,1,0,0V3.5A0,0,0,0,1,10.59,3.5Z" transform="translate(42.45 69.46) rotate(180)"/><rect class="cls-1" x="31.86" y="4.84" width="26.88" height="62.01" rx="1" ry="1"/><circle class="cls-2" cx="26.77" cy="36.41" r="2.55"/><circle class="cls-2" cx="21.62" cy="31.5" r="2.61"/><circle class="cls-2" cx="16.41" cy="36.41" r="2.6"/><circle class="cls-2" cx="21.62" cy="41.14" r="2.61"/><circle class="cls-2" cx="69.32" cy="13.3" r="2.65"/><circle class="cls-2" cx="74.32" cy="18.61" r="2.65"/><circle class="cls-2" cx="69.32" cy="23.08" r="2.65"/><circle class="cls-2" cx="64.32" cy="18.24" r="2.65"/><circle class="cls-2" cx="68.84" cy="36.85" r="5.25"/><circle cx="68.84" cy="36.85" r="4.18"/><circle cx="65.13" cy="48.25" r="2.41"/><circle class="cls-2" cx="21.62" cy="18.94" r="5.59"/><circle cx="21.62" cy="18.94" r="4.32"/><rect class="cls-3" x="33.67" y="1.76" width="22.74" height="3.09"/><rect x="25.09" y="7.94" width="3.7" height="1.37"/><polygon points="66.06 7.88 66.06 9.55 64.88 9.55 64.88 10.65 63.21 10.65 63.21 9.55 62.04 9.55 62.04 7.88 63.21 7.88 63.21 6.79 64.88 6.79 64.88 7.88 66.06 7.88"/><rect x="23.42" y="46.39" width="4.34" height="4.34"/><path class="cls-2" d="M13.42,9.74l-.95-1a1,1,0,0,1-.1-1.31A18,18,0,0,1,26.59.5h2.19a1,1,0,0,1,1,1v2"/><path class="cls-2" d="M60.86,3.5v-2a1,1,0,0,1,1-1H64a17.94,17.94,0,0,1,14.21,7,1,1,0,0,1-.09,1.31l-1,1"/></g></svg>
+<h3 id="html5-game-creation-library">HTML5 game creation library</h3>
+<p>Clouduboy&#39;s games are written with the help of the MicroCanvas JavaScript game library. The library is an extension to the HTML5 Canvas API, and contains a few handy shortcuts to make game creation easier and lessen the need for boilerplate code. At the end of the day, it&#39;s perfectly possible to create games without the library as well, but the MicroCanvas library makes it easier and the code more readable.</p>
+<p>To be able to compile/run your games on micrcocontrollers it is currently inevitable having to use the library/boilerplate provided.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M52.945,47.6v-5.37h5.37v5.37H52.945z M47.575,52.98h5.37V47.6h-5.37V52.98z M42.195,58.35h5.38v-5.37h-5.38V58.35z   M42.195,58.35h-5.38v-5.37h-10.74v5.37h5.37v5.38h-5.37v5.37h-5.38v5.38h-5.38v10.75h10.76v-5.38h5.37v-5.37h5.37V69.1h5.38v5.38  h5.38V63.73h-5.38V58.35z M69.075,15.35v5.38h10.74v10.75h5.38V15.35H69.075z M69.075,20.73h-5.38v5.37h5.38V20.73z M74.445,36.85  h5.37v-5.37h-5.37V36.85z M69.075,42.23h5.37v-5.38h-5.37V42.23z M63.695,47.6h5.38v-5.37h-5.38V47.6z M58.315,52.98h5.38V47.6  h-5.38V52.98z M52.945,58.35h5.37v-5.37h-5.37V58.35z M47.575,63.73h5.37v-5.38h-5.37V63.73z M63.695,26.1h-5.38v5.38h5.38V26.1z   M58.315,31.48h-5.37v5.37h5.37V31.48z M52.945,36.85h-5.37v5.38h5.37V36.85z M47.575,42.23h-5.38v5.37h5.38V42.23z M42.195,47.6  h-5.38v5.38h5.38V47.6z M52.945,79.85v-5.37h-5.37v5.37H52.945z M20.695,47.6v5.38h5.38V47.6H20.695z"/></svg>
+<h3 id="pixelart-sprite-creation-tools-library">Pixelart/sprite creation tools &amp; library</h3>
+<p>Embedded in the MicroCanvas library is the PixelData library which lets you create pixelelgraphic assets and simple sprites/animations for your games without the need for external resources or a graphics editor – all you need is your text editor (or the Clouduboy IDE).</p>
+<p>There is also a simple tune/sound effect format you could use to embed sounds/blips and blops in your games. When all said and done, a MicroCanvas game is just a single JavaScript file embedded in a webpage.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M93.634,27.491c0-0.715-0.379-1.338-0.943-1.692l0.003-0.005L62.137,6.71c-0.72-0.449-1.645-0.395-2.308,0.134L7.118,48.948  c-0.475,0.379-0.752,0.955-0.752,1.563v10.946c0,0.532,0.212,1.042,0.589,1.417l7.486,7.454c0.78,0.776,2.04,0.777,2.821,0.001  c2.056-2.042,6.332-1.611,9.454,1.874v9.214c0,0.52,0.202,1.019,0.564,1.392l8.352,8.617c0.392,0.404,0.914,0.608,1.437,0.608  c0.493,0,0.987-0.182,1.374-0.547l6.659-6.297v8.403c0,0.4,1.5,0.905,1.689,0.725l4.865-4.624c0.199-0.189,0.311-0.451,0.311-0.725  v-9.36l2.723-2.575v7.572c0,0.4,1.5,0.905,1.689,0.725l4.866-4.624c0.199-0.189,0.311-0.451,0.311-0.725v-9.441l2.723-2.575v7.652  c0,0.4,1.499,0.905,1.689,0.725l4.866-4.623c0.199-0.189,0.311-0.451,0.311-0.725v-9.521l2.723-2.575v7.733  c0,0.4,1.5,0.905,1.689,0.725l4.865-4.623c0.199-0.189,0.311-0.451,0.311-0.725V52.41l2.723-2.575v7.812  c0,0.4,1.5,0.905,1.689,0.725l4.866-4.624c0.199-0.189,0.311-0.451,0.311-0.725v-10.86c0.256-0.199,2.735-2.735,3.269-3.307  c0.036-0.039,0.042-0.315,0.043-0.393C93.632,38.455,93.634,27.491,93.634,27.491z M61.219,10.853l28.037,17.511l-52.147,49.31  l-6.24-6.63c0.028-0.043,0.057-0.088,0.085-0.135c1.418-2.353,1.995-8.5-3-12.721c-3.975-3.358-8.871-3.948-12.052-1.582  l-5.324-5.302L61.219,10.853z M29.938,66.466c0.023,1.232-0.201,2.217-0.436,2.85c-0.04-0.045-0.08-0.09-0.121-0.136v-5.655  C29.776,64.597,29.923,65.62,29.938,66.466z M24.265,58.137v7.555c-0.475-0.17-0.953-0.307-1.434-0.41v-7.722  C23.308,57.708,23.787,57.901,24.265,58.137z M19.897,57.193v7.869c-0.487,0.036-0.965,0.114-1.433,0.224v-7.788  C18.918,57.34,19.397,57.235,19.897,57.193z M10.366,60.625v-6.712l4.486,4.467v6.712L10.366,60.625z M16.852,65.833v-7.417  c0.268-0.228,0.556-0.424,0.862-0.588v7.671C17.421,65.595,17.133,65.705,16.852,65.833z M20.647,65.034v-7.857  c0.468,0.013,0.947,0.075,1.434,0.182v7.787C21.601,65.077,21.122,65.035,20.647,65.034z M25.015,65.989v-7.444  c0.486,0.289,0.965,0.621,1.433,0.999v7.184C25.98,66.445,25.5,66.202,25.015,65.989z M27.198,67.22v-6.997  c0.591,0.577,1.064,1.173,1.434,1.773v6.401C28.172,67.964,27.693,67.57,27.198,67.22z M30.716,80.607v-6.809l5.352,5.687v6.644  L30.716,80.607z M38.068,86.336v-6.817l51.566-48.761v6.817l-0.253,0.239l-2.504-1.592c-0.385-0.245-0.886-0.198-1.219,0.113  l-4.948,4.623c-0.226,0.211-0.342,0.515-0.313,0.823c0.028,0.308,0.198,0.585,0.459,0.751l2.598,1.652v0.654  c-0.027,0.02-0.059,0.029-0.083,0.052l-2.763,2.603c-0.08-0.155-0.188-0.295-0.339-0.391l-2.979-1.894  c-0.386-0.245-0.886-0.198-1.219,0.113l-4.948,4.623c-0.226,0.211-0.342,0.515-0.313,0.823c0.028,0.308,0.198,0.585,0.459,0.751  l2.598,1.652v0.691l-2.828,2.674c-0.079-0.178-0.19-0.34-0.358-0.447l-2.979-1.894c-0.385-0.245-0.887-0.197-1.219,0.113  l-4.948,4.624c-0.226,0.211-0.342,0.515-0.313,0.823c0.028,0.308,0.198,0.586,0.459,0.751l2.598,1.651v0.901  c-0.056,0.034-0.118,0.056-0.168,0.103l-2.633,2.442c-0.073-0.212-0.192-0.405-0.385-0.528l-2.979-1.894  c-0.385-0.245-0.886-0.198-1.219,0.113l-4.948,4.624c-0.226,0.211-0.342,0.515-0.313,0.823c0.028,0.308,0.198,0.586,0.459,0.751  l2.598,1.651v0.915c-0.058,0.036-0.121,0.059-0.173,0.108l-2.614,2.467c-0.068-0.231-0.193-0.441-0.399-0.572l-2.979-1.894  c-0.385-0.245-0.886-0.198-1.219,0.113l-4.948,4.623c-0.226,0.211-0.342,0.515-0.313,0.823c0.028,0.308,0.198,0.585,0.459,0.751  l2.333,1.483l-0.446,0.451l-0.027-0.029L38.068,86.336z M74.666,51.311l-1.235-0.786l3.438-3.213l1.235,0.786L74.666,51.311z   M45.901,78.271l-1.235-0.786l3.438-3.213l1.235,0.786L45.901,78.271z M49.966,88.541l-2.865,2.723V83.3l0.009-0.009l-0.009-0.01  v-3.03l2.865-2.723V88.541z M55.489,69.284l-1.235-0.785l3.438-3.213l1.236,0.786L55.489,69.284z M59.555,79.555l-2.866,2.723  V71.265l2.866-2.723V79.555z M65.078,60.297l-1.235-0.785l3.438-3.213l1.236,0.786L65.078,60.297z M69.143,70.568l-2.866,2.723  V62.278l2.866-2.723V70.568z M78.731,61.582l-2.865,2.723V53.292l2.865-2.723V61.582z M84.254,42.325l-1.235-0.786l3.438-3.213  l1.235,0.786L84.254,42.325z M85.454,55.318V44.305l2.794-2.655c0.022,0.023,0.049,0.04,0.072,0.062v10.883L85.454,55.318z   M77.728,33.964c2.801,0,5.079-1.82,5.079-4.058s-2.278-4.058-5.079-4.058c-2.8,0-5.079,1.82-5.079,4.058  S74.927,33.964,77.728,33.964z M77.728,27.848c1.669,0,3.079,0.942,3.079,2.058s-1.41,2.058-3.079,2.058s-3.079-0.942-3.079-2.058  S76.059,27.848,77.728,27.848z"/></svg>
+  <h3 id="microcontroller-code-compiler">Microcontroller code compiler</h3>
+<p>After developing/debugging and sharing your game in the browser Clouduboy lets you create machine-code binaries for your games for various platforms. With this you (and anyone you share your games with) can not only play your games on-the-go on a variety of commercially available [gaming] [platforms], but you could build your very own, hand-crafted compatible devices and experiment, even add extra features  or sensors!</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M91.312,5.941H8.688c-1.104,0-2,0.896-2,2v55.452c0,1.104,0.896,2,2,2h28.428v4.936l-3.121,4.422  c-0.323,0.458-0.364,1.058-0.106,1.556c0.258,0.497,0.771,0.81,1.332,0.81h29.559c0.562,0,1.076-0.313,1.333-0.813  c0.258-0.499,0.215-1.1-0.111-1.558l-3.117-4.38v-4.973h28.428c1.104,0,2-0.896,2-2V7.941C93.312,6.837,92.416,5.941,91.312,5.941z   M38.115,74.116c0,0,1.862-2.683,1.908-2.812h19.933c0.047,0.146,1.914,2.812,1.914,2.812H38.115z M59.884,70.305H40.116v-4.911  h19.768V70.305z M89.312,61.394H10.688V9.941h78.623V61.394z M28.885,48.142c-2.764,0-5.012,2.248-5.012,5.011  c0,2.764,2.248,5.012,5.012,5.012c2.763,0,5.011-2.248,5.011-5.012c0-0.816-0.215-1.576-0.563-2.258l7.85-7.85  c1.449,1.028,3.215,1.639,5.123,1.639c4.385,0,8.029-3.198,8.745-7.383h11.308c0.642,2.028,2.519,3.512,4.756,3.512  c2.764,0,5.012-2.248,5.012-5.012c0-2.763-2.248-5.011-5.012-5.011c-2.237,0-4.114,1.483-4.756,3.511H55.051  c-0.716-4.184-4.36-7.382-8.745-7.382c-1.84,0-3.551,0.562-4.97,1.524l-8.003-8.003c0.348-0.682,0.563-1.442,0.563-2.258  c0-2.764-2.248-5.012-5.011-5.012c-2.764,0-5.012,2.248-5.012,5.012c0,2.763,2.248,5.011,5.012,5.011  c0.853,0,1.644-0.234,2.348-0.611l7.944,7.944c-1.096,1.477-1.753,3.299-1.753,5.275c0,1.909,0.611,3.674,1.639,5.123l-7.829,7.829  C30.529,48.376,29.737,48.142,28.885,48.142z M71.115,32.79c1.661,0,3.012,1.351,3.012,3.011c0,1.661-1.351,3.012-3.012,3.012  c-1.66,0-3.011-1.351-3.011-3.012C68.104,34.141,69.455,32.79,71.115,32.79z M28.885,56.164c-1.661,0-3.012-1.351-3.012-3.012  c0-1.66,1.351-3.011,3.012-3.011c1.66,0,3.011,1.351,3.011,3.011C31.896,54.813,30.545,56.164,28.885,56.164z M53.187,35.801  c0,3.795-3.087,6.883-6.882,6.883s-6.883-3.088-6.883-6.883s3.088-6.882,6.883-6.882S53.187,32.006,53.187,35.801z M25.873,18.183  c0-1.661,1.351-3.012,3.012-3.012c1.66,0,3.011,1.351,3.011,3.012c0,1.66-1.351,3.011-3.011,3.011  C27.224,21.193,25.873,19.843,25.873,18.183z M92.347,90.429L79.841,79.126c-0.367-0.333-0.846-0.517-1.341-0.517h-57  c-0.495,0-0.974,0.184-1.341,0.517L7.492,90.575c-0.614,0.555-0.823,1.43-0.525,2.202c0.297,0.771,1.039,1.281,1.866,1.281h82.334  c0.008,0,0.016,0,0.02,0c1.105,0,2-0.896,2-2C93.187,91.387,92.855,90.791,92.347,90.429z M14.028,90.059l8.241-7.449H77.73  l8.241,7.449H14.028z"/></svg>
+<h3 id="fully-web-based-editor-ide">Fully web-based editor/IDE</h3>
+<p>For easier development the Clouduboy platform includes its own, in-browser editor. This means that (especially if you are developing to select platforms), the only thing you need is a web browser to create, play and even install games on microcontrollers. Bring your PC, Mac, Chromebook, Android or iOS tablet, even your phone (although we do recommend an external keyboard if you want to go this deep into the rabbithole :P), and create your games in the same, familiar UI.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M86,28v-5c0-1.371-1.366-2.515-2.8-1.9c0,0-4.4,1.7-8.5,0C62,16.1,53.3,21,50,23.4c-3.3-2.4-12-7.3-24.7-2.3  c-4.2,1.7-8.5,0-8.5,0C15.282,20.593,14,21.633,14,23v5c-1.1,0-2,0.9-2,2v54c0,1.1,0.9,2,2,2h72c1.1,0,2-0.9,2-2V30  C88,28.9,87.1,28,86,28z M73.3,24.9c3.3,1.3,6.5,1.1,8.7,0.7v50.9c-1.6,0.4-4.5,0.8-7.3-0.4C63.1,71.5,54.8,75.1,51,77.7v-50  C54.953,23.728,63.405,20.971,73.3,24.9z M18,25.6c2.2,0.4,5.5,0.6,8.7-0.7c9.471-3.788,17.821-1.457,22.2,2.9v50  c-5.962-4.055-14.368-5.281-23.8-1.6c-2.8,1.1-5.7,0.7-7.3,0.399v-51H18z"/></svg>
+<h3 id="coding-tutorials">Coding tutorials</h3>
+<p>One of the original goals of Clouduboy was to serve as a tool to help interested folks learn the basics of coding, while keeping them engaged, whether they are doing it in the form of self-learning or via mentored courses/workshops.</p>
+<p>At Fronteers you will get a chance to try the special Clouduboy coding-quick-start tutorials that are not released for the public yet. You will also get full access to these (and future) tutorials, should you want to continue learning after the workshop is over.</p>
+
+
+<h2 id="who-is-the-workshop-for-">Who is this workshop for?</h2>
+<p>I know it&#39;s a trite to say &quot;everyone&quot;, but if you are at least a slight bit interested in programming this workshop is for you. To avoid sounding vague, here are a few scenarios to consider – who are you?</p>
+<h3 id="i-m-a-code-newbie">I&#39;m a code newbie</h3>
+<blockquote>
+<p>I&#39;m new to computers and/or coding but were always interested to learn.<br />
+  I&#39;m a designer/UI/UX/IX person who have worked with developers, but didn&#39;t (have to) code, but interested to have a look. </p>
+</blockquote>
+<p>Come to the workshop and…</p>
+<ul>
+<li><strong>…learn the basics of coding.</strong><br>You need to touch on a fair bit of the first principles when you set out to build a game – what is a variable, what are basic control structures like conditions and loops, what are functions, events and more!</li>
+<li><p><strong>…have fun!</strong><br>May sounds superfluous, but it makes sense actually: you learn best/fastest when you are having fun.</p>
+<p>And with Clouduboy, there&#39;s loads of fun to be had. ;)</p>
+</li>
+<li><strong>…hack on hardware and learn!</strong><br>Learn aboutabout sensors, components, microcontrollers etc. and electronics basics. All this is enough to demistify computer software <em>and</em> hardware – if you can believe you can build it, you already won!</li>
+</ul>
+<p><img src="./_assets/workshop-kids.gif" alt="Beginners"></p>
+<h3 id="i-m-a-developer-interested-in-games-hardware">I&#39;m a developer interested in games/hardware</h3>
+<blockquote>
+<p>I&#39;m a developer who is already proficient in one or many (high or low level, doesn&#39;t matter) programming languages and curious to learn more about games programming, web development or hardware/electronics/IoT.</p>
+</blockquote>
+<p>At the workshop you will get a chance to…</p>
+<ul>
+<li><p><strong>…get started with hardware with zero setup!</strong><br>Download &amp; install the Arduino IDE, wait for compiling, fool around with unrecognized driver – forget all this. Bring any web-capable device, even a Chromebook or tablet (keyboard recommended), and just open the IDE in the browser. Write your code, test it. Flashing? Just download the compiled binary, plug in and copy over the file, that&#39;s it you are done!</p>
+</li>
+<li><p><strong>…play games!!!</strong><br>But no, seriously, who doesn&#39;t love to do that? :D</p>
+</li>
+<li><p><strong>…but more importantly (re-)create your own versions of classic games</strong><br>Or completely new ones. But doing your version of Space Invaders with invading Mercurean Muffins and a toothpaste defender to save Planet Dentin from doomed to destruction, or Snake but a twist (you play the food! portals!) has its own charm too.</p>
+</li>
+<li><p><strong>…DIY everything, including the hardware!</strong><br>We&#39;ll help you cobble together a basic minuscule arcade machine, so it being your code – the game you built single-handedly is powering the device – the device <em>itself</em> was <em>also</em> built by you and you alone! Creation-ception!</p>
+</li>
+</ul>
+<p><img src="./_assets/workshop-build.jpg" alt="Hardware"></p>
+<p>The <a href="https://googlesystem.blogspot.hu/2014/09/chromes-offline-easter-egg.html">Chrome offline dino run</a> game/easter egg, recreated for the original Arduboy DevKit and a custom, Arduino Micro-based gaming hardware.</p>
+<h3 id="i-m-a-developer-interested-in-web-development">I&#39;m a developer interested in web development</h3>
+<blockquote>
+<p>I&#39;ve already played around with &lt; <em>insert IoT device here</em> &gt; but frankly that didn&#39;t seem too exciting/useful – I&#39;m a web developer who is proficient in JavaScript and wants to learn a few new tricks of the trade.</p>
+</blockquote>
+<p>You are in luck! Why? Because…</p>
+<ul>
+<li><strong>…you can learn about advanced web APIs, like Canvas, WebAudio or Web Animations!</strong><br>Games are actually pretty complex beasts, fast-changing animated visuals and sounds react to inputs from the user, or the passing of time – you will need all the power of the web platform to get somewhere. Don&#39;t fret though, as…</li>
+<li><strong>…MicroCanvas is built to try not to reinvent the wheel.</strong><br>The libraries extend functionality of the built-in browser APIs here &amp; there, like the HTML5 Canvas API, but you will learn about (and will be using) a good bunch of standard browser APIs that you can later use in any development scenario!</li>
+<li><strong>…MicroCanvas code supports ES2015+ features!</strong><br>MicroCanvas uses a subset of the full JavaScript API (if you want to retain the ability to compile for hardware) – but a subset of the <em>new</em> JavaScript standard, that means that a good bunch of new features of ES6 and later you can use in your games too!</li>
+<li><strong>…you will create complex games for tiny microcontrollers</strong><br>And learn about low-level languages and hardware in the process.</li>
+<li><strong>…finally you can &quot;IoT&quot; in a fun, engaging way!</strong><br>Forget &quot;blinking LED&quot; examples, you are creating something that actually makes sense, but using the same techniques and sneakily learning about sensors, electronics components etc. as you otherwise would.</li>
+</ul>
+<p><img src="./_assets/workshop-snake.jpg" alt="Games"></p>
+<p>On top of all this, you can share your games &amp; creations online with anyone and play others&#39; games on the tiny console you just built yourself. Because it&#39;s just the Web.</p>
+<p>All this and the blissful satisfaction of having created your very own personal game, or having re-created timeless classics like Space Invaders or pocket-sized hit of the &#39;97, Snake! You are taking away useful learnings of JavaScript, the web and electronics/microcontrollers, while not having to worry about falling asleep halfway through!</p>
+<h3 id="hands-on-self-paced-learning">Hands-on, self-paced learning</h3>
+<p>This is a hands-on workshop, with a relatively short intro followed by mentored, self-directed learning. After the workshop is over you retain access to the IDE and everything else, so you can continue learning.</p>
+<p>Although things may not be as polished as I want them to be just yet, the Clouduboy editor and tutorials already help you get started and to learn in your own pace. This is not one of those workshops when you lose track 30 minutes in and the whole day is wasted as for the rest of the day you are doomed to listen to babbling that&#39;s way over your head. Clouduboy guides you learning in your own pace, minimizing frustration and maximizing the fun! Got stuck? Have a <em>stellar</em> idea but don&#39;t know how to start? I&#39;m there for you to help you out.</p>
+<h2 id="notes">Notes</h2>
+<h3 id="all-the-tools-are-free-open-source">All the tools are free &amp; open-source</h2>
+<p>All tools of the Clouduboy system are open source and <a href="https://github.com/flaki/clouduboy/">available in the public GitHub repository</a>. Most of the functionality is also in beta (or even alpha) phase. This means that not all (planned or potential) functionality may be available, but if you are a developer and this sounds interesting/exciting you can contribute and help out with development. This also means that all of this is provided as-is (e.g. some of the IDE infrastucture requires a server to run, which may get overwhelmed, DDOSed etc. and may not work. You can always run the tools on your local computer (since they are available online, and the code is open source), and we have secondary infrastucture set up to ensure that all goes smoothly during the workshops).</p>
+<h3 id="hardware-support">Hardware support</h2>
+<p>With the help of PlatformIO supports a variety of platforms based on Arduino, such as various 8-bit (Atmega32u4) and 32-bit (ARM) microcontrollers. Clouduboy has some support for commercial microcontroller-gaming platforms (Arduboy, Tiny Arcade), but provides guides for building your own devices as well.</p>
+<p>To see Clouduboy in action and follow the latest news, head to <a href="https://twitter.com/clouduboy">https://twitter.com/clouduboy</a></p>
+<p>If you want to try some of the games created with Clouduboy and/or MicroCanvas check out
+<a href="https://flaki.github.io/microcanvas/examples/code-invaders/?v=singapore-js">Code Invaders</a>,
+<a href="https://flaki.github.io/microcanvas/examples/dino-run/?v=ruhr-js">Chrome Dino Run</a>
+or the
+<a href="https://flaki.github.io/microcanvas/examples/dino-run/?v=mozilla-id">Mozilla Edition</a>!</p>
+
+<div class="tiny">
+<em>This page uses:</em>
+"Sword" by Lisa Krymova from the Noun Project;
+"Video Game Controller" by DAVIVONGSA PATHRPOL from the Noun Project;
+"Microprocessor", "Computational Chemistry" by H Alberto Gongora from the Noun Project;
+"Book" by Setyo Ari Wibowo from the Noun Project
+</div>
+</main>
+
+</body>
+</html>
