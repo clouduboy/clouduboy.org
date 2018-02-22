@@ -1,0 +1,21 @@
+h1 {}
+h2 { font-size: 2.0em; border-bottom: .2em solid #5AD76F }
+h3 { font-size: 1.4em; }
+strong { color: rgb(3, 3, 3); }
+del { color: rgb(126, 126, 126); }
+a, a code { color: black; }
+img { max-width: 100%; }
+p { margin-top: 0px; margin-bottom: 1.5em; }
+ul, ol { margin-bottom: 1.5em; }
+blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(126, 126, 126); border-color: rgb(214, 214, 214); border-width: 4px; }
+hr { margin: 3em 0px; border-top: 2px dashed rgb(214, 214, 214); background: none; }
+table { margin: 1.5em 0px; }
+th { color: rgb(3, 3, 3); }
+th, td { padding: 0.66em 1em; border: 1px solid rgb(214, 214, 214); }
+code { color: rgb(3, 3, 3); background-color: rgb(240, 240, 240); }
+kbd { color: rgb(3, 3, 3); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(214, 214, 214) rgb(214, 214, 214) rgb(199, 199, 199); border-image: initial; background-color: rgb(240, 240, 240); }
+blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+blockquote > :first-child { margin-top: 0px; }
+blockquote > :last-child { margin-bottom: 0px; }
+table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+img { max-width: 100%; box-sizing: border-box; }

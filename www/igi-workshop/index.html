@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Clouduboy Workshop comes to Iceland!</title>
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Passion+One|Saira+Extra+Condensed:200,400" rel="stylesheet">
+
+      <meta property="og:image" content="https://clouduboy.org/_assets/workshop/workshop-title.jpg" />
+      <meta property="og:site_name" content="Clouduboy" />
+      <meta property="og:title" content="Clouduboy Workshop in Iceland" />
+      <meta property="og:description" content="JavaScript, Microcontrollers, Games! Clouduboy Workshop in Iceland this March!" />
+      <meta property="og:type" content="website" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content="Clouduboy Workshop in Iceland" />
+      <meta property="twitter:description" content="JavaScript, Microcontrollers, Games! Clouduboy Workshop in Iceland this March!" />
+      <meta property="twitter:site" content="@clouduboy" />
+      <meta property="twitter:author" content="@slsoftworks" />
+      <meta property="twitter:image" content="https://clouduboy.org/_assets/workshop/workshop-title.jpg" />
+
+      <link rel="stylesheet" href="base-style.css">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="theme.css">
+  </head>
+<body>
+
+<main>
+<div class="workshopimg">
+  <div class="img"><img src="/_assets/workshop/workshop.jpg" alt="Workshop"></div>
+  <h1 id="clouduboy-workshop-in-iceland-"><span>Clouduboy</span> <span>Workshop</span> <span class="tiny">in</span> <span>Iceland!</span></h1>
+</div>
+
+<section class="lead">
+<p><strong>Homo Ludens – the playful human.</strong><br />
+  They say this for a reason – and indeed, from kids to adults, developers or not, it is quite easy for everyone to find something they love about Clouduboy.</p>
+<p><strong>The first (free!) Clouduboy workshop in Iceland will happen <a href="https://2018.jsconf.is/about/#clouduboy-workshop">on March 10</a> and there are still some places remaining!</strong></p>
+<p class="tickets"><a href="#signups"><img src="clouduboy-iceland.png" alt="IGI &amp; JSConf Iceland presents - Clouduboy Workshop Iceland"></a></p>
+</section>
+<p><strong><em>Click <a href="#signups">here</a> to sign up for the workshop.</em></strong></p>
+
+<h2 id="okay-but-what-is-this-clouduboy-thing-">Okay, but what is this &quot;Clouduboy&quot; thing?</h2>
+<p><img src="/_assets/workshop/clouduboy-intro.gif" alt="Workshop">
+<br><strong><em>Note: the animation shows an earlier version, the UI, features and functionality may have somewhat improved and/or changed since this was recorded</em></strong></p>
+<p>Clouduboy is not <em>a</em> thing, but rather, a variety of things. It&#39;s a set of tools, libraries and apps I have been working on in the past few years, trying to figure out the best way to bring software (buzzword: coding) and hardware/microcontrollers (or in 2017 terms, &quot;IoT&quot;) closer to people. Read about the components below, or scroll further down to see what&#39;s in it for you if you come to the workshop.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 85"><defs><style>.cls-1,.cls-2{fill:none;stroke:#000;stroke-miterlimit:10}.cls-1{stroke-width:3px}</style></defs><title>Asset 1</title><g data-name="Layer 2"><path class="cls-1" d="M75 62c7 4 15 3 13-13-2-18-5-27-8-31m-69 0c-3 3-7 12-9 32-2 17 7 17 14 13"/><path class="cls-1" d="M59 4h6a15 15 0 0 1 15 15v32a15 15 0 0 1-15 15h-6V4zM32 66h-6a15 15 0 0 1-15-15V18A15 15 0 0 1 26 3h6v63z"/><rect class="cls-1" x="32" y="5" width="27" height="62" rx="1" ry="1"/><circle class="cls-2" cx="27" cy="36" r="3"/><circle class="cls-2" cx="22" cy="32" r="3"/><circle class="cls-2" cx="16" cy="36" r="3"/><circle class="cls-2" cx="22" cy="41" r="3"/><circle class="cls-2" cx="69" cy="13" r="3"/><circle class="cls-2" cx="74" cy="19" r="3"/><circle class="cls-2" cx="69" cy="23" r="3"/><circle class="cls-2" cx="64" cy="18" r="3"/><circle class="cls-2" cx="69" cy="37" r="5"/><circle cx="69" cy="37" r="4"/><circle cx="65" cy="48" r="2"/><circle class="cls-2" cx="22" cy="19" r="6"/><circle cx="22" cy="19" r="4"/><path stroke-width="2" fill="none" stroke="#000" stroke-miterlimit="10" d="M34 2h23v3H34z"/><path d="M25 8h4v1h-4zm41 0v2h-1v1h-2v-1h-1V8h1V7h2v1h1zM23 46h4v4h-4z"/><path class="cls-2" d="M13 10l-1-1a1 1 0 0 1 0-2 18 18 0 0 1 15-6h2a1 1 0 0 1 1 1v2m31 0V2a1 1 0 0 1 1-1h2a18 18 0 0 1 14 7 1 1 0 0 1 0 1l-1 1"/></g></svg>
+<h3 id="html5-game-creation-library">HTML5 game creation library</h3>
+<p>Clouduboy&#39;s games are written with the help of the MicroCanvas JavaScript game library. The library is an extension to the HTML5 Canvas API, and contains a few handy shortcuts to make game creation easier and lessen the need for boilerplate code. At the end of the day, it&#39;s perfectly possible to create games without the library as well, but the MicroCanvas library makes it easier and the code more readable.</p>
+<p>To be able to compile/run your games on micrcocontrollers it is currently inevitable having to use the library/boilerplate provided.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 100 100"><path d="M53 48v-6h5v6h-5zm-5 5h5v-5h-5v5zm-6 5h6v-5h-6v5zm0 0h-5v-5H26v5h5v6h-5v5h-5v5h-6v11h11v-5h5v-6h6v-5h5v5h6V64h-6v-6zm27-43v6h11v10h5V15H69zm0 6h-5v5h5v-5zm5 16h6v-6h-6v6zm-5 5h5v-5h-5v5zm-5 6h5v-6h-5v6zm-6 5h6v-5h-6v5zm-5 5h5v-5h-5v5zm-5 6h5v-6h-5v6zm16-38h-6v5h6v-5zm-6 5h-5v6h5v-6zm-5 6h-5v5h5v-5zm-5 5h-6v6h6v-6zm-6 6h-5v5h5v-5zm11 32v-6h-5v6h5zM21 48v5h5v-5h-5z"/></svg>
+<h3 id="pixelart-sprite-creation-tools-library">Pixelart/sprite creation tools &amp; library</h3>
+<p>Embedded in the MicroCanvas library is the PixelData library which lets you create pixelelgraphic assets and simple sprites/animations for your games without the need for external resources or a graphics editor – all you need is your text editor (or the Clouduboy IDE).</p>
+<p>There is also a simple tune/sound effect format you could use to embed sounds/blips and blops in your games. When all said and done, a MicroCanvas game is just a single JavaScript file embedded in a webpage.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 100 100"><path d="M94 27l-1-1L62 7h-2L7 49l-1 2v10l1 2 7 7h3c2-2 7-1 10 2v11l9 8a2 2 0 0 0 2 0l7-6v9h2l5-4V80l3-3v8h1l5-4 1-1v-9l2-3v8h2l5-4V61l3-2v8h2l4-4 1-1V52l2-2v8h2l5-4V42a111 111 0 0 0 4-4V27zM61 11l28 17-52 50-6-7c1-2 2-9-3-13-4-3-9-4-12-1l-5-6 50-40zM30 66v3h-1v-5l1 2zm-6-8v8l-1-1v-7h1zm-4-1v8h-2v-8h2zm-10 4v-7l5 4v7l-5-4zm7 5v-8h1v7l-1 1zm4-1v-8h1v8h-1zm4 1v-7l1 1v7l-1-1zm2 1v-7l2 2v6l-2-1zm4 14v-7l5 5v7l-5-5zm7 5v-6l52-49v7h-1l-2-2h-1l-5 5a1 1 0 0 0 0 2l2 1v1l-2 2h-1l-3-2h-1l-5 5a1 1 0 0 0 0 2l3 1v1l-3 3v-1l-3-2h-2l-4 5a1 1 0 0 0 0 2l2 1v1l-3 3v-1l-3-2h-1l-5 5a1 1 0 0 0 0 1l3 2v1l-3 3v-1l-3-2h-2l-5 5a1 1 0 0 0 1 1l2 2h-1l-6 6zm37-35h-2l4-4 1 1-3 3zM46 78l-1-1 3-3 1 1-3 3zm4 11l-3 2V80l3-2v11zm5-20l-1-1 4-3 1 1-4 3zm5 11l-3 2V71l3-2v11zm5-20h-1l3-4 2 1-4 3zm4 11l-3 2V62l3-2v11zm10-9l-3 2V53l3-2v11zm5-20h-1l3-4 2 1-4 3zm1 13V44l3-2v11l-3 2zm-7-21c3 0 5-2 5-4s-2-4-5-4-5 2-5 4 2 4 5 4zm0-6l3 2-3 2-3-2c0-1 1-2 3-2z"/></svg>
+  <h3 id="microcontroller-code-compiler">Microcontroller code compiler</h3>
+<p>After developing/debugging and sharing your game in the browser Clouduboy lets you create machine-code binaries for your games for various platforms. With this you (and anyone you share your games with) can not only play your games on-the-go on a variety of commercially available <a target="_blank" href="http://arduboy.com">gaming</a> <a target="_blank" href="https://tinycircuits.com/collections/kits/products/tinyarcade">platforms</a>, but you could build your very own, hand-crafted compatible devices and experiment, even add extra features  or sensors!</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 100 100"><path d="M91 6H9L7 8v55l2 2h28v5l-3 5a2 2 0 0 0 1 2h30a1 1 0 0 0 1-2l-3-5v-5h28l2-2V8l-2-2zM38 74l2-3h20l2 3H38zm22-4H40v-5h20v5zm29-9H11V10h78v51zM29 48a5 5 0 1 0 5 5l-1-2 8-8a9 9 0 0 0 14-6h11a5 5 0 1 0 0-3H55a9 9 0 0 0-14-6l-8-8 1-2a5 5 0 1 0-5 5h2l8 8a9 9 0 0 0 0 10l-8 8-2-1zm42-15a3 3 0 1 1 0 6 3 3 0 0 1 0-6zM29 56a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm24-20a7 7 0 1 1-14 0 7 7 0 0 1 14 0zM26 18a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm66 72L80 79H20L7 91a2 2 0 0 0 2 3h82a2 2 0 0 0 1-4zm-78 0l8-7h56l8 7H14z"/></svg>
+<h3 id="fully-web-based-editor-ide">Fully web-based editor/IDE</h3>
+<p>For easier development the Clouduboy platform includes its own, in-browser editor. This means that (especially if you are developing to select platforms), the only thing you need is a web browser to create, play and even install games on microcontrollers. Bring your PC, Mac, Chromebook, Android or iOS tablet, even your phone (although we do recommend an external keyboard if you want to go this deep into the rabbithole :P), and create your games in the same, familiar UI.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 100 100"><path d="M86 28v-5c0-1-1-3-3-2 0 0-4 2-8 0-13-5-22 0-25 2-3-2-12-7-25-2-4 2-8 0-8 0-2 0-3 1-3 2v5l-2 2v54l2 2h72l2-2V30l-2-2zm-13-3l9 1v51l-7-1c-12-4-20-1-24 2V28c4-4 12-7 22-3zm-55 1l9-1c9-4 18-2 22 3v50c-6-4-14-5-24-2l-7 1V26z"/></svg>
+<h3 id="coding-tutorials">Coding tutorials</h3>
+<p>One of the original goals of Clouduboy was to serve as a tool to help interested folks learn the basics of coding, while keeping them engaged, whether they are doing it in the form of self-learning or via mentored courses/workshops.</p>
+<p>At the workshop you will get a chance to try the special Clouduboy coding-quick-start tutorials that are not released for the public yet. You will also get full access to these (and future) tutorials, should you want to continue learning after the workshop is over.</p>
+
+
+<h2 id="who-is-the-workshop-for">Who is this workshop for?</h2>
+<p>I know it&#39;s a trite to say &quot;everyone&quot;, but if you are at least a slight bit interested in programming this workshop is for you. To avoid sounding vague, here are a few scenarios to consider – who are you?</p>
+<h3 id="im-a-code-newbie">I&#39;m a code newbie</h3>
+<blockquote>
+<p>I&#39;m new to computers and/or coding but were always interested to learn.<br />
+  I&#39;m a designer/UI/UX/IX person who have worked with developers, but didn&#39;t (have to) code, but interested to have a look. </p>
+</blockquote>
+<p>Come to the workshop and…</p>
+<ul>
+<li><strong>…learn the basics of coding.</strong><br>You need to touch on a fair bit of the first principles when you set out to build a game – what is a variable, what are basic control structures like conditions and loops, what are functions, events and more!</li>
+<li><p><strong>…have fun!</strong><br>May sounds superfluous, but it makes sense actually: you learn best/fastest when you are having fun.</p>
+<p>And with Clouduboy, there&#39;s loads of fun to be had. ;)</p>
+</li>
+<li><strong>…hack on hardware and learn!</strong><br>Learn aboutabout sensors, components, microcontrollers etc. and electronics basics. All this is enough to demistify computer software <em>and</em> hardware – if you can believe you can build it, you already won!</li>
+</ul>
+<p><img src="/_assets/workshop/workshop-kids.gif" alt="Beginners"></p>
+<h3 id="i-m-a-developer-interested-in-games-hardware">I&#39;m a developer interested in games/hardware</h3>
+<blockquote>
+<p>I&#39;m a developer who is already proficient in one or many (high or low level, doesn&#39;t matter) programming languages and curious to learn more about games programming, web development or hardware/electronics/IoT.</p>
+</blockquote>
+<p>At the workshop you will get a chance to…</p>
+<ul>
+<li><p><strong>…get started with hardware with zero setup!</strong><br>Download &amp; install the Arduino IDE, wait for compiling, fool around with unrecognized driver – forget all this. Bring any web-capable device, even a Chromebook or tablet (keyboard recommended), and just open the IDE in the browser. Write your code, test it. Flashing? Just download the compiled binary, plug in and copy over the file, that&#39;s it you are done!</p>
+</li>
+<li><p><strong>…play games!!!</strong><br>But no, seriously, who doesn&#39;t love to do that? :D</p>
+</li>
+<li><p><strong>…but more importantly (re-)create your own versions of classic games</strong><br>Or completely new ones. But doing your version of Space Invaders with invading Mercurean Muffins and a toothpaste defender to save Planet Dentin from doomed to destruction, or Snake but a twist (you play the food! portals!) has its own charm too.</p>
+</li>
+<li><p><strong>…DIY everything, including the hardware!</strong><br>We&#39;ll help you cobble together a basic minuscule arcade machine, so it being your code – the game you built single-handedly is powering the device – the device <em>itself</em> was <em>also</em> built by you and you alone! Creation-ception!</p>
+</li>
+</ul>
+<p><img src="/_assets/workshop/workshop-build.jpg" alt="Hardware"></p>
+<p>The <a href="https://googlesystem.blogspot.hu/2014/09/chromes-offline-easter-egg.html">Chrome offline dino run</a> game/easter egg, recreated for the original Arduboy DevKit and a custom, Arduino Micro-based gaming hardware.</p>
+<h3 id="i-m-a-developer-interested-in-web-development">I&#39;m a developer interested in web development</h3>
+<blockquote>
+<p>I&#39;ve already played around with &lt; <em>insert IoT device here</em> &gt; but frankly that didn&#39;t seem too exciting/useful – I&#39;m a web developer who is proficient in JavaScript and wants to learn a few new tricks of the trade.</p>
+</blockquote>
+<p>You are in luck! Why? Because…</p>
+<ul>
+<li><strong>…you can learn about advanced web APIs, like Canvas, WebAudio or Web Animations!</strong><br>Games are actually pretty complex beasts, fast-changing animated visuals and sounds react to inputs from the user, or the passing of time – you will need all the power of the web platform to get somewhere. Don&#39;t fret though, as…</li>
+<li><strong>…MicroCanvas is built to try not to reinvent the wheel.</strong><br>The libraries extend functionality of the built-in browser APIs here &amp; there, like the HTML5 Canvas API, but you will learn about (and will be using) a good bunch of standard browser APIs that you can later use in any development scenario!</li>
+<li><strong>…MicroCanvas code supports ES2015+ features!</strong><br>MicroCanvas uses a subset of the full JavaScript API (if you want to retain the ability to compile for hardware) – but a subset of the <em>new</em> JavaScript standard, that means that a good bunch of new features of ES6 and later you can use in your games too!</li>
+<li><strong>…you will create complex games for tiny microcontrollers</strong><br>And learn about low-level languages and hardware in the process.</li>
+<li><strong>…finally you can &quot;IoT&quot; in a fun, engaging way!</strong><br>Forget &quot;blinking LED&quot; examples, you are creating something that actually makes sense, but using the same techniques and sneakily learning about sensors, electronics components etc. as you otherwise would.</li>
+</ul>
+<p><img src="/_assets/workshop/workshop-snake.jpg" alt="Games"></p>
+<p>On top of all this, you can share your games &amp; creations online with anyone and play others&#39; games on the tiny console you just built yourself. Because it&#39;s just the Web.</p>
+<p>All this and the blissful satisfaction of having created your very own personal game, or having re-created timeless classics like Space Invaders or pocket-sized hit of the &#39;97, Snake! You are taking away useful learnings of JavaScript, the web and electronics/microcontrollers, while not having to worry about falling asleep halfway through!</p>
+<h3 id="hands-on-self-paced-learning">Hands-on, self-paced learning</h3>
+<p>This is a hands-on workshop, with a relatively short intro followed by mentored, self-directed learning. After the workshop is over you retain access to the IDE and everything else, so you can continue learning.</p>
+<p>Although things may not be as polished as I want them to be just yet, the Clouduboy editor and tutorials already help you get started and to learn in your own pace. This is not one of those workshops when you lose track 30 minutes in and the whole day is wasted as for the rest of the day you are doomed to listen to babbling that&#39;s way over your head. Clouduboy guides you learning in your own pace, minimizing frustration and maximizing the fun! Got stuck? Have a <em>stellar</em> idea but don&#39;t know how to start? I&#39;m there for you to help you out.</p>
+<h2 id="notes">Notes</h2>
+<h3 id="all-the-tools-are-free-open-source">All the tools are free &amp; open-source</h2>
+<p>All tools of the Clouduboy system are open source and <a target="_blank" href="https://github.com/clouduboy/">available in the public GitHub repository</a>. Most of the functionality is also in beta (or even alpha) phase. This means that not all (planned or potential) functionality may be available, but if you are a developer and this sounds interesting/exciting you can contribute and help out with development. This also means that all of this is provided as-is (e.g. some of the IDE infrastucture requires a server to run, which may get overwhelmed, DDOSed etc. and may not work. You can always run the tools on your local computer (since they are available online, and the code is open source), and we have secondary infrastucture set up to ensure that all goes smoothly during the workshops).</p>
+<h3 id="hardware-support">Hardware support</h2>
+<p>With the help of PlatformIO supports a variety of platforms based on Arduino, such as various 8-bit (Atmega32u4) and 32-bit (ARM) microcontrollers. Clouduboy has some support for commercial microcontroller-gaming platforms (Arduboy, Tiny Arcade), but provides guides for building your own devices as well.</p>
+<p>To see Clouduboy in action and follow the latest news, head to <a target="_blank" href="https://twitter.com/clouduboy">@clouduboy on Twitter</a></p>
+<p>If you want to try some of the games created with Clouduboy and/or MicroCanvas check out
+<a target="_blank" href="https://clouduboy.github.io/microcanvas/examples/code-invaders/?v=singapore-js">Code Invaders</a>,
+<a target="_blank" href="https://clouduboy.github.io/microcanvas/examples/dino-run/?v=ruhr-js">Chrome Dino Run</a>
+or the
+<a target="_blank" href="https://clouduboy.github.io/microcanvas/examples/dino-run/?v=mozilla-id">Mozilla Edition</a>!</p>
+
+<div class="tiny">
+<em>This page uses:</em>
+"Sword" by Lisa Krymova from the Noun Project;
+"Video Game Controller" by DAVIVONGSA PATHRPOL from the Noun Project;
+"Microprocessor", "Computational Chemistry" by H Alberto Gongora from the Noun Project;
+"Book" by Setyo Ari Wibowo from the Noun Project
+</div>
+</main>
+
+</body>
+</html>

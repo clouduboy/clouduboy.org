@@ -1,0 +1,24 @@
+body {
+	background: #f3df49;
+}
+.workshopimg::after {
+	background: linear-gradient(to right, transparent, #f2cb13), linear-gradient(to right, transparent, white 50%);
+}
+h1 {
+	color: #aaa;
+	text-shadow: 0 -.04em black, -.02em -.02em black, -.04em 0 black, -.02em .02em black, 0 .04em black, .02em .02em black, .04em 0 black, .02em -.02em black, calc( 0em + .03em) calc(-.04em + .03em) currentcolor, calc(-.02em + .03em) calc(-.02em + .03em) currentcolor, calc(-.04em + .03em) calc( 0em + .03em) currentcolor, calc(-.02em + .03em) calc( .02em + .03em) currentcolor, calc( 0em + .03em) calc( .04em + .03em) currentcolor, calc( .02em + .03em) calc( .02em + .03em) currentcolor, calc( .04em + .03em) calc( 0em + .03em) currentcolor, calc( .02em + .03em) calc(-.02em + .03em) currentcolor, calc( 0em + .06em) calc(-.04em + .06em) black, calc(-.02em + .06em) calc(-.02em + .06em) black, calc(-.04em + .06em) calc( 0em + .06em) black, calc(-.02em + .06em) calc( .02em + .06em) black, calc( 0em + .06em) calc( .04em + .06em) black, calc( .02em + .06em) calc( .02em + .06em) black, calc( .04em + .06em) calc( 0em + .06em) black, calc( .02em + .06em) calc(-.02em + .06em) black, calc( .01em + .06em) calc(-.07em + .06em) black, calc( .03em + .06em) calc(-.05em + .06em) black, calc(-.05em + .06em) calc( .03em + .06em) black, calc(-.06em + .06em) calc( .02em + .06em) black, calc( 0em + .09em) calc(-.04em + .09em) currentcolor, calc(-.02em + .09em) calc(-.02em + .09em) currentcolor, calc(-.04em + .09em) calc( 0em + .09em) currentcolor, calc(-.02em + .09em) calc( .02em + .09em) currentcolor, calc( 0em + .09em) calc( .04em + .09em) currentcolor, calc( .02em + .09em) calc( .02em + .09em) currentcolor, calc( .04em + .09em) calc( 0em + .09em) currentcolor, calc( .02em + .09em) calc(-.02em + .09em) currentcolor, calc( 0em + .12em) calc(-.04em + .12em) black, calc(-.02em + .12em) calc(-.02em + .12em) black, calc(-.04em + .12em) calc( 0em + .12em) black, calc(-.02em + .12em) calc( .02em + .12em) black, calc( 0em + .12em) calc( .04em + .12em) black, calc( .02em + .12em) calc( .02em + .12em) black, calc( .04em + .12em) calc( 0em + .12em) black, calc( .02em + .12em) calc(-.02em + .12em) black, calc( .01em + .12em) calc(-.07em + .12em) black, calc( .03em + .12em) calc(-.05em + .12em) black, calc(-.05em + .12em) calc( .03em + .12em) black, calc(-.06em + .12em) calc( .02em + .12em) black;
+}
+h2 {
+	border-bottom: .2em solid #b3008b;
+}
+blockquote {
+	color: #513;
+	border-left: 4px solid #b3008b;
+}
+
+p.tickets img {
+	width: 8em;
+}
+p.tickets a:hover img {
+	box-shadow: 0 0 0 .1em black, 0 0 0 1em black, 0 0 0 1.1em black;
+}

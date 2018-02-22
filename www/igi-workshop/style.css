@@ -1,0 +1,156 @@
+* { box-sizing: border-box; }
+body {
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+@media only screen and (max-width: 960px) {
+  body {
+    font-size: calc(18px + (100vw - 320px) / 60);
+  }
+}
+h1,h2,h3 {
+  font-family: 'Passion One', 'Impact', sans-serif;
+  font-weight: normal;
+}
+h2 { margin-bottom: .5em; }
+h3 { margin-bottom: .25em; }
+h3+blockquote {
+  margin-top: 0;
+}
+p+ul {
+  margin-top: -1em;
+}
+p+ul li {
+  margin-bottom: .5em;
+}
+p+ul li>p {
+  margin-bottom: 0;
+}
+p.tickets {
+  text-align: center;
+}
+p.tickets img {
+	width: 32em;
+	border-radius: 4em;
+	margin: 1em;
+	max-width: calc(100% - 2em);
+
+}
+p.tickets a {
+  display: block;
+}
+p.tickets a:hover img {
+  box-shadow: 0 0 0 .1em black, 0 0 0 1em #5AD76F, 0 0 0 1.1em black;
+}
+svg {
+  max-width: 6em;
+  float: right;
+  margin: .5em 0 1em 1em;
+}
+
+main {
+  max-width: 960px;
+  margin: auto;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  color: #5AD76F;
+  text-align: center;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-size: 2.8em;
+
+  text-shadow:
+       0   -.04em black, -.02em -.02em black,
+    -.04em    0   black, -.02em  .02em black,
+       0    .04em black,  .02em  .02em black,
+     .04em    0   black,  .02em -.02em black,
+
+    calc(   0em + .03em) calc(-.04em + .03em) #B1E89D, calc(-.02em + .03em) calc(-.02em + .03em) #B1E89D,
+    calc(-.04em + .03em) calc(   0em + .03em) #B1E89D, calc(-.02em + .03em) calc( .02em + .03em) #B1E89D,
+    calc(   0em + .03em) calc( .04em + .03em) #B1E89D, calc( .02em + .03em) calc( .02em + .03em) #B1E89D,
+    calc( .04em + .03em) calc(   0em + .03em) #B1E89D, calc( .02em + .03em) calc(-.02em + .03em) #B1E89D,
+
+    calc(   0em + .06em) calc(-.04em + .06em) black, calc(-.02em + .06em) calc(-.02em + .06em) black,
+    calc(-.04em + .06em) calc(   0em + .06em) black, calc(-.02em + .06em) calc( .02em + .06em) black,
+    calc(   0em + .06em) calc( .04em + .06em) black, calc( .02em + .06em) calc( .02em + .06em) black,
+    calc( .04em + .06em) calc(   0em + .06em) black, calc( .02em + .06em) calc(-.02em + .06em) black,
+
+    calc( .01em + .06em) calc(-.07em + .06em) black, calc( .03em + .06em) calc(-.05em + .06em) black,
+    calc(-.05em + .06em) calc( .03em + .06em) black, calc(-.06em + .06em) calc( .02em + .06em) black,
+
+    calc(   0em + .09em) calc(-.04em + .09em) #B1E89D, calc(-.02em + .09em) calc(-.02em + .09em) #B1E89D,
+    calc(-.04em + .09em) calc(   0em + .09em) #B1E89D, calc(-.02em + .09em) calc( .02em + .09em) #B1E89D,
+    calc(   0em + .09em) calc( .04em + .09em) #B1E89D, calc( .02em + .09em) calc( .02em + .09em) #B1E89D,
+    calc( .04em + .09em) calc(   0em + .09em) #B1E89D, calc( .02em + .09em) calc(-.02em + .09em) #B1E89D,
+
+    calc(   0em + .12em) calc(-.04em + .12em) black, calc(-.02em + .12em) calc(-.02em + .12em) black,
+    calc(-.04em + .12em) calc(   0em + .12em) black, calc(-.02em + .12em) calc( .02em + .12em) black,
+    calc(   0em + .12em) calc( .04em + .12em) black, calc( .02em + .12em) calc( .02em + .12em) black,
+    calc( .04em + .12em) calc(   0em + .12em) black, calc( .02em + .12em) calc(-.02em + .12em) black,
+
+    calc( .01em + .12em) calc(-.07em + .12em) black, calc( .03em + .12em) calc(-.05em + .12em) black,
+    calc(-.05em + .12em) calc( .03em + .12em) black, calc(-.06em + .12em) calc( .02em + .12em) black;
+}
+
+h1>:nth-child(2) {
+  letter-spacing: .09em;
+}
+
+.tiny { font-size: 50% }
+
+.workshopimg {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.workshopimg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    linear-gradient(to right, transparent,#f1c8d8),
+    linear-gradient(to right, transparent, white 50%);
+  z-index: 1;
+}
+.workshopimg .img {
+  width: 0;
+}
+.workshopimg img {
+	margin-left: -5em;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	width: auto;
+	max-width: initial;
+	max-height: 15em;
+}
+.workshopimg h1 {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  padding: 0 .3em;
+}
+
+p>img:first-child, p>img:last-child {
+  width: 100%;
+}
+
+.lead {
+  font-family: Saira Extra Condensed;
+  font-weight: 200;
+  font-size: 1.6em;
+}
+.lead p {
+  margin-bottom: .5em;
+}
+.lead strong {
+  font-weight: 400;
+}
+.lead+p {
+  margin-top: -1em;
+  margin-bottom: 3em;
+}
